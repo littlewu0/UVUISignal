@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05D3EE31E99202C0031860F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D3EE21E99202C0031860F /* main.m */; };
+		D05D3EE61E99202C0031860F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D3EE51E99202C0031860F /* AppDelegate.m */; };
+		D05D3EE91E99202C0031860F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D3EE81E99202C0031860F /* ViewController.m */; };
+		D05D3EEC1E99202C0031860F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05D3EEA1E99202C0031860F /* Main.storyboard */; };
+		D05D3EEE1E99202C0031860F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05D3EED1E99202C0031860F /* Assets.xcassets */; };
+		D05D3EF11E99202C0031860F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05D3EEF1E99202C0031860F /* LaunchScreen.storyboard */; };
+		D05D3EFC1E99202C0031860F /* UVUISignalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D3EFB1E99202C0031860F /* UVUISignalTests.m */; };
+		D05D3F071E99202C0031860F /* UVUISignalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D3F061E99202C0031860F /* UVUISignalUITests.m */; };
+		D05D3F171E99204F0031860F /* UVUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D3F161E99204F0031860F /* UVUISignal.m */; };
+		D05D3F1A1E9A05B90031860F /* TestSignalView.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D3F191E9A05B90031860F /* TestSignalView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05D3EF81E99202C0031860F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05D3ED61E99202C0031860F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D3EDD1E99202C0031860F;
+			remoteInfo = UVUISignal;
+		};
+		D05D3F031E99202C0031860F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05D3ED61E99202C0031860F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05D3EDD1E99202C0031860F;
+			remoteInfo = UVUISignal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D05D3EDE1E99202C0031860F /* UVUISignal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVUISignal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05D3EE21E99202C0031860F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05D3EE41E99202C0031860F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D05D3EE51E99202C0031860F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D05D3EE71E99202C0031860F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D05D3EE81E99202C0031860F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D05D3EEB1E99202C0031860F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05D3EED1E99202C0031860F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05D3EF01E99202C0031860F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05D3EF21E99202C0031860F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05D3EF71E99202C0031860F /* UVUISignalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UVUISignalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05D3EFB1E99202C0031860F /* UVUISignalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UVUISignalTests.m; sourceTree = "<group>"; };
+		D05D3EFD1E99202C0031860F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05D3F021E99202C0031860F /* UVUISignalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UVUISignalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05D3F061E99202C0031860F /* UVUISignalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UVUISignalUITests.m; sourceTree = "<group>"; };
+		D05D3F081E99202C0031860F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05D3F151E99204F0031860F /* UVUISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVUISignal.h; sourceTree = "<group>"; };
+		D05D3F161E99204F0031860F /* UVUISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVUISignal.m; sourceTree = "<group>"; };
+		D05D3F181E9A05B90031860F /* TestSignalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSignalView.h; sourceTree = "<group>"; };
+		D05D3F191E9A05B90031860F /* TestSignalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSignalView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05D3EDB1E99202C0031860F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05D3EF41E99202C0031860F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05D3EFF1E99202C0031860F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05D3ED51E99202C0031860F = {
+			isa = PBXGroup;
+			children = (
+				D05D3EE01E99202C0031860F /* UVUISignal */,
+				D05D3EFA1E99202C0031860F /* UVUISignalTests */,
+				D05D3F051E99202C0031860F /* UVUISignalUITests */,
+				D05D3EDF1E99202C0031860F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05D3EDF1E99202C0031860F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05D3EDE1E99202C0031860F /* UVUISignal.app */,
+				D05D3EF71E99202C0031860F /* UVUISignalTests.xctest */,
+				D05D3F021E99202C0031860F /* UVUISignalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05D3EE01E99202C0031860F /* UVUISignal */ = {
+			isa = PBXGroup;
+			children = (
+				D05D3F141E9920420031860F /* UVUISignal */,
+				D05D3EE41E99202C0031860F /* AppDelegate.h */,
+				D05D3EE51E99202C0031860F /* AppDelegate.m */,
+				D05D3F181E9A05B90031860F /* TestSignalView.h */,
+				D05D3F191E9A05B90031860F /* TestSignalView.m */,
+				D05D3EE71E99202C0031860F /* ViewController.h */,
+				D05D3EE81E99202C0031860F /* ViewController.m */,
+				D05D3EEA1E99202C0031860F /* Main.storyboard */,
+				D05D3EED1E99202C0031860F /* Assets.xcassets */,
+				D05D3EEF1E99202C0031860F /* LaunchScreen.storyboard */,
+				D05D3EF21E99202C0031860F /* Info.plist */,
+				D05D3EE11E99202C0031860F /* Supporting Files */,
+			);
+			path = UVUISignal;
+			sourceTree = "<group>";
+		};
+		D05D3EE11E99202C0031860F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05D3EE21E99202C0031860F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D05D3EFA1E99202C0031860F /* UVUISignalTests */ = {
+			isa = PBXGroup;
+			children = (
+				D05D3EFB1E99202C0031860F /* UVUISignalTests.m */,
+				D05D3EFD1E99202C0031860F /* Info.plist */,
+			);
+			path = UVUISignalTests;
+			sourceTree = "<group>";
+		};
+		D05D3F051E99202C0031860F /* UVUISignalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D05D3F061E99202C0031860F /* UVUISignalUITests.m */,
+				D05D3F081E99202C0031860F /* Info.plist */,
+			);
+			path = UVUISignalUITests;
+			sourceTree = "<group>";
+		};
+		D05D3F141E9920420031860F /* UVUISignal */ = {
+			isa = PBXGroup;
+			children = (
+				D05D3F151E99204F0031860F /* UVUISignal.h */,
+				D05D3F161E99204F0031860F /* UVUISignal.m */,
+			);
+			path = UVUISignal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05D3EDD1E99202C0031860F /* UVUISignal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05D3F0B1E99202C0031860F /* Build configuration list for PBXNativeTarget "UVUISignal" */;
+			buildPhases = (
+				D05D3EDA1E99202C0031860F /* Sources */,
+				D05D3EDB1E99202C0031860F /* Frameworks */,
+				D05D3EDC1E99202C0031860F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UVUISignal;
+			productName = UVUISignal;
+			productReference = D05D3EDE1E99202C0031860F /* UVUISignal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05D3EF61E99202C0031860F /* UVUISignalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05D3F0E1E99202C0031860F /* Build configuration list for PBXNativeTarget "UVUISignalTests" */;
+			buildPhases = (
+				D05D3EF31E99202C0031860F /* Sources */,
+				D05D3EF41E99202C0031860F /* Frameworks */,
+				D05D3EF51E99202C0031860F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05D3EF91E99202C0031860F /* PBXTargetDependency */,
+			);
+			name = UVUISignalTests;
+			productName = UVUISignalTests;
+			productReference = D05D3EF71E99202C0031860F /* UVUISignalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D05D3F011E99202C0031860F /* UVUISignalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05D3F111E99202C0031860F /* Build configuration list for PBXNativeTarget "UVUISignalUITests" */;
+			buildPhases = (
+				D05D3EFE1E99202C0031860F /* Sources */,
+				D05D3EFF1E99202C0031860F /* Frameworks */,
+				D05D3F001E99202C0031860F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05D3F041E99202C0031860F /* PBXTargetDependency */,
+			);
+			name = UVUISignalUITests;
+			productName = UVUISignalUITests;
+			productReference = D05D3F021E99202C0031860F /* UVUISignalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05D3ED61E99202C0031860F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "伍学俊";
+				TargetAttributes = {
+					D05D3EDD1E99202C0031860F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D05D3EF61E99202C0031860F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D05D3EDD1E99202C0031860F;
+					};
+					D05D3F011E99202C0031860F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D05D3EDD1E99202C0031860F;
+					};
+				};
+			};
+			buildConfigurationList = D05D3ED91E99202C0031860F /* Build configuration list for PBXProject "UVUISignal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05D3ED51E99202C0031860F;
+			productRefGroup = D05D3EDF1E99202C0031860F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05D3EDD1E99202C0031860F /* UVUISignal */,
+				D05D3EF61E99202C0031860F /* UVUISignalTests */,
+				D05D3F011E99202C0031860F /* UVUISignalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05D3EDC1E99202C0031860F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05D3EF11E99202C0031860F /* LaunchScreen.storyboard in Resources */,
+				D05D3EEE1E99202C0031860F /* Assets.xcassets in Resources */,
+				D05D3EEC1E99202C0031860F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05D3EF51E99202C0031860F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05D3F001E99202C0031860F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05D3EDA1E99202C0031860F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05D3EE91E99202C0031860F /* ViewController.m in Sources */,
+				D05D3F1A1E9A05B90031860F /* TestSignalView.m in Sources */,
+				D05D3EE61E99202C0031860F /* AppDelegate.m in Sources */,
+				D05D3F171E99204F0031860F /* UVUISignal.m in Sources */,
+				D05D3EE31E99202C0031860F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05D3EF31E99202C0031860F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05D3EFC1E99202C0031860F /* UVUISignalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05D3EFE1E99202C0031860F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05D3F071E99202C0031860F /* UVUISignalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05D3EF91E99202C0031860F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D3EDD1E99202C0031860F /* UVUISignal */;
+			targetProxy = D05D3EF81E99202C0031860F /* PBXContainerItemProxy */;
+		};
+		D05D3F041E99202C0031860F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05D3EDD1E99202C0031860F /* UVUISignal */;
+			targetProxy = D05D3F031E99202C0031860F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05D3EEA1E99202C0031860F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05D3EEB1E99202C0031860F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05D3EEF1E99202C0031860F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05D3EF01E99202C0031860F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05D3F091E99202C0031860F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D05D3F0A1E99202C0031860F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05D3F0C1E99202C0031860F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UVUISignal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxj.UVUISignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D05D3F0D1E99202C0031860F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UVUISignal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxj.UVUISignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D05D3F0F1E99202C0031860F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UVUISignalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxj.UVUISignalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UVUISignal.app/UVUISignal";
+			};
+			name = Debug;
+		};
+		D05D3F101E99202C0031860F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UVUISignalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxj.UVUISignalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UVUISignal.app/UVUISignal";
+			};
+			name = Release;
+		};
+		D05D3F121E99202C0031860F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UVUISignalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxj.UVUISignalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UVUISignal;
+			};
+			name = Debug;
+		};
+		D05D3F131E99202C0031860F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UVUISignalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxj.UVUISignalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UVUISignal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05D3ED91E99202C0031860F /* Build configuration list for PBXProject "UVUISignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05D3F091E99202C0031860F /* Debug */,
+				D05D3F0A1E99202C0031860F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05D3F0B1E99202C0031860F /* Build configuration list for PBXNativeTarget "UVUISignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05D3F0C1E99202C0031860F /* Debug */,
+				D05D3F0D1E99202C0031860F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D05D3F0E1E99202C0031860F /* Build configuration list for PBXNativeTarget "UVUISignalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05D3F0F1E99202C0031860F /* Debug */,
+				D05D3F101E99202C0031860F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D05D3F111E99202C0031860F /* Build configuration list for PBXNativeTarget "UVUISignalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05D3F121E99202C0031860F /* Debug */,
+				D05D3F131E99202C0031860F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05D3ED61E99202C0031860F /* Project object */;
+}
